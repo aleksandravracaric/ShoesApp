@@ -1,11 +1,16 @@
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
 import ShoesHeader from './components/ShoesHeader';
+import Dashboard from './components/Dashboard';
+
 
 function App() {
   return (
-    <div className="App">
-     <ShoesHeader />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Dashboard/>} ></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
