@@ -1,11 +1,14 @@
+import { useState } from "react";
 import ShoeItem from "./ShoeItem";
 
-export default function ShoeGrid({shoes}){
+export default function ShoeGrid({shoeList}){
+
     return(
-        <div>
-            {shoes.map(shoe => 
+        // <div>
+            shoeList?.map(shoe =>  (
                 <ShoeItem key={shoe.id} shoe={shoe}/>
-                )}
-        </div>
+                )
+            )
+        // </div>
     )
 }
