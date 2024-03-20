@@ -1,10 +1,19 @@
-export default function ShoeItem({shoe}){
+import React from "react";
+import Card from 'react-bootstrap/Card';
+import "./Box.css"
 
-    return(
-        <div>
-            <img src={shoe.image} alt="new" width={200} height={200}/>
-            <h3>{shoe.name}</h3>
-            <h4>${shoe.price}</h4>
-        </div>
+
+
+export default function ShoeItem({ shoe }) {
+
+    return (
+
+        <Card style={{ width: '18rem' }} key = {shoe.id} className="box1">
+            <Card.Img variant="top" src={shoe.image} />
+            <Card.Body>
+                <Card.Title>{shoe.name}</Card.Title>
+                <Card.Text>{shoe.price}</Card.Text>
+            </Card.Body>
+        </Card>
     )
 }
