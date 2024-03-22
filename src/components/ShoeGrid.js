@@ -5,9 +5,9 @@ import "./Box.css"
 export default function ShoeGrid({ shoeList }) {
     return (
         <div className="grid">
-            {shoeList?.map((shoe => (
-                <div className="box">
-                    <ShoeItem shoe={shoe} />
+            {shoeList?.map((s=> (
+                <div className="box" key={s.id}>
+                    <ShoeItem shoe={s} />
                 </div>
             )))}
         </div>

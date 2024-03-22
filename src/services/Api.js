@@ -12,7 +12,7 @@ const fetchShoes = async () => {
 
 
         const headers = {
-            'X-RapidAPI-Key': '1cb2eab011msh7333949d3840809p193314jsn8e3480b7300c',
+            'X-RapidAPI-Key': '7d647b9184msh5b3e1f1fbae0e80p1591a6jsnb869ef4a2d1c',
             'X-RapidAPI-Host': 'shoes-collections.p.rapidapi.com'
 
         };

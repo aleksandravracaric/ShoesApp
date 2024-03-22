@@ -153,14 +153,14 @@ export default function Dashboard() {
 
     const [shoes, setShoes] = useState([]);
     useEffect(() => {
-      //  setShoes(localShoes)
+       setShoes(localShoes)
         async function loadShoes() {
             const shoeList = await fetchShoes()
             setShoes(shoeList);
             console.log(shoeList)
         }
 
-        loadShoes()
+        //loadShoes()
     }, [])
 
 
