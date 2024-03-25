@@ -6,7 +6,7 @@ const baseURL = 'https://shoes-collections.p.rapidapi.com';
 export function fetchAllShoes(){
     
     const headers = {
-        'X-RapidAPI-Key': '879a9ec3a7mshb698cb1339df89dp19bec7jsnead75be058fb',
+        'X-RapidAPI-Key': '1cb2eab011msh7333949d3840809p193314jsn8e3480b7300c',
         'X-RapidAPI-Host': 'shoes-collections.p.rapidapi.com'
 
     };
