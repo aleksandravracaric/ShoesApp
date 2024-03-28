@@ -20,18 +20,26 @@ export default function Dashboard() {
 
     useEffect(() => {
 
-        setLoading(true)
+       // setLoading(true)
 
         //  Mock data
         //setShoes(localShoes) 
 
         //    option 1
         // async function loadShoes() {
-        //     const shoeList = await fetchShoes()
-        //     setShoes(shoeList);
-        //     console.log(shoeList)
+        //     try {
+        //         const shoeList = await fetchShoes()
+        //         setLoading(false)
+        //         setShoes(shoeList);
+        //         console.log(shoeList)
+        //     } catch (error) {
+        //         console.log(error.response.data.message)
+        //         setLoading(false)
+        //         setError(error)
+        //     }
         // }
         // loadShoes()
+
 
 
 
