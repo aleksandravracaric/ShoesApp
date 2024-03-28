@@ -2,7 +2,8 @@
     background-color: #fff;
     border-radius: 10px 10px 10px 10px;
     overflow: hidden;
-    height: wrap;
+    height: 200px;
+    width: 200px;
     max-width: wrap;
     -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
     box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
@@ -16,11 +17,11 @@
     -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
     box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
     display: inline;
-    width: 100%; 
+    width: 200px; 
+    height: 200px;
     justify-content: center;
     align-items: center; 
     margin-bottom: 50px;
-
  } 
 
 .photo1{
@@ -29,6 +30,19 @@
     height: 100%; 
     object-fit: cover;
 
+}
+
+.photoItem{
+    width: 100px; 
+    height: 250px; 
+    object-fit: cover
+}
+
+.cardText{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -59,8 +73,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .grid > div {
     flex-basis: calc(20% - 40px);
-}
+}  

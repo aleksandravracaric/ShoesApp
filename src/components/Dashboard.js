@@ -6,6 +6,7 @@ import ShoeGrid from "./ShoeGrid";
 import { useNavigate } from "react-router-dom";
 import { localShoes } from "../services/Mock";
 import "./Box.css";
+import Loading from "./Loading";
 
 
 
@@ -18,7 +19,7 @@ export default function Dashboard() {
 
     useEffect(() => {
         //  Mock data
-        // setShoes(localShoes) 
+         setShoes(localShoes) 
 
         //    option 1
         // async function loadShoes() {
@@ -31,17 +32,18 @@ export default function Dashboard() {
 
 
         //      option 2
-        fetchAllShoes()
-            .then(response => {
-                setShoes(response.data)
-                setError(null)
-                console.log(response.data)
-            })
-            .catch(error => {
-                console.log(error.response.data.message)
-                setError(error)
-            })
-    }, [])
+    //     fetchAllShoes()
+    //         .then(response => {
+    //             setShoes(response.data)
+    //             setError(null)
+    //             console.log(response.data)
+    //         })
+    //         .catch(error => {
+    //             console.log(error.response.data.message)
+    //             setError(error)
+    //         })
+    // }, [])
+    })
 
     const getErrorView = () => {
         return (
