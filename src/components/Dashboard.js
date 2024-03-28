@@ -20,7 +20,7 @@ export default function Dashboard() {
 
     useEffect(() => {
 
-       // setLoading(true)
+        // setLoading(true)
 
         //  Mock data
         //setShoes(localShoes) 
@@ -76,6 +76,14 @@ export default function Dashboard() {
         )
     }
 
+    const getMainContent = () => {
+        if (error === null) {
+            return getGridView()
+        } else {
+            return getErrorView()
+        }
+    }
+
     if (loading) {
         return (
             <div className="container-fluid ">
@@ -89,12 +97,13 @@ export default function Dashboard() {
         )
     }
 
+
     return (
         <div className="container-fluid ">
             <div className="row">
                 <ShoesHeader />
             </div>
-            {error ? getErrorView() : getGridView()}
+            {getMainContent()}
         </div>
     )
 }
