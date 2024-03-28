@@ -95,15 +95,14 @@ export default function Dashboard() {
                 </div>
             </div>
         )
-    }
-
-
-    return (
-        <div className="container-fluid ">
-            <div className="row">
-                <ShoesHeader />
+    } else {
+        return (
+            <div className="container-fluid ">
+                <div className="row">
+                    <ShoesHeader />
+                </div>
+                {getMainContent()}
             </div>
-            {getMainContent()}
-        </div>
-    )
+        )
+    }
 }
