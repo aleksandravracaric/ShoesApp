@@ -23,7 +23,8 @@ export default function Dashboard() {
         // setLoading(true)
 
         //  Mock data
-        //setShoes(localShoes) 
+        // setShoes(localShoes) 
+        // setLoading(false)
 
         //    option 1
         // async function loadShoes() {

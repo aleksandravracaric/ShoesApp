@@ -17,8 +17,8 @@ export default function ShowDetail() {
             </div>
 
             <div className="row justify-content-center">
-                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                    <Card style={{ width: '100%' }} key={location.state.shoe.id} className="box2">
+                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <Card style={{ width: '100%', maxWidth: '100vw' }} key={location.state.shoe.id} className="box2">
                         <div className="row">
                             <div className="col-md-6">
                                 <Card.Img variant="left" className="photo1" src={location.state.shoe.image} />
