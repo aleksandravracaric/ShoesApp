@@ -5,6 +5,7 @@ import { fetchAllShoes } from "../services/Api";
 import { useNavigate } from "react-router-dom";
 import "./Box.css";
 import ShoeCard from "./ShoeCard";
+import { localShoes } from "../services/Mock";
 
 
 
@@ -17,7 +18,31 @@ export default function Dashboard() {
 
     const navigate = useNavigate();
 
+
     useEffect(() => {
+
+         // setLoading(true)
+
+        //  Mock data
+        // setShoes(localShoes) 
+        // setLoading(false)
+
+        //  Option 1
+        // async function loadShoes() {
+        //     try {
+        //         const shoeList = await fetchShoes()
+        //         setLoading(false)
+        //         setShoes(shoeList);
+        //         console.log(shoeList)
+        //     } catch (error) {
+        //         console.log(error.response.data.message)
+        //         setLoading(false)
+        //         setError(error)
+        //     }
+        // }
+        // loadShoes()
+
+        //   Option 2
         fetchAllShoes()
             .then(response => {
                 setLoading(false)
