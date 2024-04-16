@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-export default function ShoeItem({shoe}) {
+export default function ShoeCard({shoe}) {
 
     const navigate = useNavigate();
 
@@ -19,7 +19,7 @@ export default function ShoeItem({shoe}) {
             <Card.Img variant="top" className="photoItem" src={shoe.image} />
             <Card.Body className="cardText">
                 <Card.Title>{shoe.name}</Card.Title>
-                <Card.Text>{shoe.price}</Card.Text>
+                <Card.Text>${shoe.price}</Card.Text>
             </Card.Body>
         </Card>  
     )

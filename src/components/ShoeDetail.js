@@ -26,7 +26,7 @@ export default function ShowDetail() {
                             <div className="col-md-6">
                                 <Card.Body className="text1">
                                     <Card.Title>{location.state.shoe.name}</Card.Title>
-                                    <Card.Text>{location.state.shoe.price}</Card.Text>
+                                    <Card.Text>${location.state.shoe.price}</Card.Text>
                                     <Card.Text>{location.state.shoe.description}</Card.Text>
                                 </Card.Body>
                             </div>
