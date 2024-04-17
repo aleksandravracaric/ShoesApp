@@ -5,7 +5,7 @@ This project was created using ReactJS framework.
 ## Requirements
 
 ### BackEnd/Server
-For this project, we use a free API to provide us with a Shoe collection.[https://rapidapi.com/kaushiksheel9/api/shoes-collections/] Each API key has a limit of 20 API calls per 24 hours.
+For this project, we use a free API to provide us with a Shoe collection[https://rapidapi.com/kaushiksheel9/api/shoes-collections/]. Each API key has a limit of 20 API calls per 24 hours.
 
 
 API call request details:
