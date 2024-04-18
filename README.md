@@ -1,6 +1,6 @@
 # Aleksandra's sneakers 
 
-This project was created using ReactJS framework,and serves as my first stand alone project which i deploy publicly.
+This project was created using ReactJS framework,and serves as my first stand alone project which I deployed publicly.
 
 ## Requirements
 
