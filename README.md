@@ -17,7 +17,7 @@ Desing inspiration is from this link: [https://startbootstrap.com/snippets/about
 
 
 ### BackEnd/Server
-For this project, I used a free API to provide us with a Shoe collection [https://rapidapi.com/kaushiksheel9/api/shoes-collections/ (https://rapidapi.com/kaushiksheel9/api/shoes-collections/)]. Each API key has a limit of 20 API calls per 24 hours.
+For this project, I used a free API to provide us with a Shoe collection [https://rapidapi.com/kaushiksheel9/api/shoes-collections/](https://rapidapi.com/kaushiksheel9/api/shoes-collections/). Each API key has a limit of 20 API calls per 24 hours.
   
 
 
