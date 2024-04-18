@@ -6,8 +6,8 @@ This project was created using ReactJS framework,and serves as my first stand al
 
 ### Frontend
 
-- Desing : Bootstrap and CSS were used in this project for design.The screen is responsive.
-Desing inspiration is from this link: [https://startbootstrap.com/snippets/about-team#google_vignette]
+- Desing: Bootstrap and CSS were used in this project for design.The screen is responsive.
+Desing inspiration is from this [link](https://startbootstrap.com/snippets/about-team#google_vignette)
 - Homepage containing shoes represented as grid of cards.
 - Detail page containing more information about selected shoe.
 - Used axios for API cals
@@ -23,4 +23,4 @@ For this project, I used a free API to provide us with a Shoe collection [https:
 
 
 ## Deployment
-  This project was put online on Firebase, here is the link: [https://shoes-aleksandra.web.app]
+  This project was put online on Firebase, here is the link: [https://shoes-aleksandra.web.app](https://shoes-aleksandra.web.app)
