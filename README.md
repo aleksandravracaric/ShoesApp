@@ -11,7 +11,7 @@ Desing inspiration is from this [link](https://startbootstrap.com/snippets/about
 - Homepage containing shoes represented as grid of cards.
 - Detail page containing more information about selected shoe.
 - Used axios for API cals
-- Used react-rooter-dom for
+- Used react-rooter-dom
 
 
 
